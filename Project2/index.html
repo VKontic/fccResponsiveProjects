@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 2</title>
+	<link rel="stylesheet" href="css.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+<h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+
+<div class="gridContainer">
+<div class="form">
+<form action="#" id="survey-form">
+	
+<label for="name" id="name-label">Name:</label><br>
+<input type="text" placeholder="Enter your name" required id="name"><br>
+
+<label for="email" id="email-label">Email:</label><br>
+<input type="email" placeholder="Enter your email" id="email" required><br>
+
+<label for="number" id="number-label">Age:</label><br>
+<input type="number" id="number" placeholder="Age" min="18" max="120"><br>
+
+<p>Which option best describes your current role?</p>
+<select id="dropdown">
+	<option disabled selected value>Opcija 1</option>
+	<option value="b">Opcija 2</option>
+	<option value="c">Opcija 3</option>
+	<option value="d">Opcija 4</option>
+	<option value="e">Opcija 5</option>
+	<option value="f">Opcija 6</option>
+</select><br>
+
+</p>Would you recommend freeCodeCamp to a friend?</p>
+<input type="radio" name="radios" id="r1" value="r1">
+<label for="r1">Option 1</label> <br>
+
+<input type="radio" name="radios" id="r2" value="r2">
+<label for="r2">Option 2</label><br>
+
+<input type="radio" name="radios" id="r3" value="r3">
+<label for="r3">Option 3</label><br>
+
+<p class="improved">What would you like to see improved? <span>(Check all that apply)<span></p>
+<input type="checkbox" value="chechk1" id="chckBox1">
+<label for="chckBox1">Option 1</label><br>
+
+<input type="checkbox" value="chechk2" id="chckBox2">
+<label for="chckBox2">Option 2</label><br>
+
+<input type="checkbox" value="chechk3" id="chckBox3">
+<label for="chckBox3">Option 3</label><br>
+
+<input type="checkbox" value="chechk4" id="chckBox4">
+<label for="chckBox4">Option 4</label><br>
+
+<input type="checkbox" value="chechk5" id="chckBox5">
+<label for="chckBox5">Option 5</label><br>
+
+<input type="checkbox" value="chechk6" id="chckBox6">
+<label for="chckBox6">Option 6</label><br>
+
+<input type="checkbox" value="chechk7" id="chckBox7">
+<label for="chckBox7">Option 7</label><br>
+
+<input type="checkbox" value="chechk8" id="chckBox8">
+<label for="chckBox8">Option 8</label><br>
+
+<input type="checkbox" value="chechk9" id="chckBox9">
+<label for="chckBox9">Option 9</label><br>
+
+<input type="checkbox" value="chechk10" id="chckBox10">
+<label for="chckBox10">Option 10</label>
+
+<p class="comments">Any comments or suggestions?</p>
+<textarea placeholder="Enter your comment here.."></textarea><br>
+
+<input type="submit" id="submit" value="Submit">
+</form>
+</div>
+</div>
+
+</body>
+</html>
